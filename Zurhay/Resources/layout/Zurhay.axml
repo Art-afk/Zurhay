@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ZurhaytextView11"
+        android:clickable="false" />
+    <ProgressBar xmlns:tools="http://schemas.android.com/tools"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/progressbar_margin"
+        android:layout_marginTop="@dimen/progressbar_margin"
+        android:id="@+id/progressBar1"
+        tools:visibility="gone" />
+    <LinearLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/backlisst"
+        android:orientation="vertical"
+        android:layout_height="350dp"
+        android:id="@+id/ZurhaylinearLayout1">
+        <LinearLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ZurhaylinearLayout2">
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_Zurhayleftdate"
+                android:textColor="@android:color/background_dark"
+                android:drawableLeft="@drawable/ic_navigation_arrow_back"
+                android:layout_marginTop="10dp"
+                android:minWidth="40dp" />
+            <TextView
+                android:text="Error Date"
+                android:textColor="@android:color/background_dark"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewZurhay_CentralData"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:minWidth="180dp"
+                android:maxWidth="200dp"
+                android:layout_gravity="center"
+                android:minHeight="30dp"
+                android:textStyle="bold" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@drawable/ic_navigation_arrow_forward"
+                android:id="@+id/bt_Zurhayrightdate"
+                android:minWidth="40dp"
+                android:clickable="true" />
+        </LinearLayout>
+        <ScrollView
+            android:id="@+id/ZurhayScrollContrainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:id="@+id/ZurhayScrollcontainer2"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="5dp">
+                <TextView
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ZurhaytextView2" />
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/background_dark"
+                    android:id="@+id/textViewZurhay_DateName"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="err" />
+                <TextView
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ZurhaytextViewSpace1" />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_ok"
+                        android:layout_marginLeft="10dp" />
+                    <TextView
+                        android:text="server err"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/background_dark"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewZurhay_GoodDoDay" />
+                </FrameLayout>
+                <TextView
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ZurhaytextViewSpace2" />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_no"
+                        android:layout_marginLeft="10dp" />
+                    <TextView
+                        android:text="server err"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="30dp"
+                        android:textColor="@android:color/background_dark"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewZurhay_BadDoDay" />
+                </FrameLayout>
+                <TextView
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ZurhaytextViewSpace4" />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@android:drawable/sym_action_chat"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/ZurhayImageView_WhatDatsanDoToday" />
+                    <TextView
+                        android:text="err"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="30dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/background_dark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewZurhay_WhatDatsanDoToday" />
+                </FrameLayout>
+                <TextView
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ZurhaytextViewSpace3" />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@android:drawable/checkbox_on_background"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/ZurhayImageView_WhatNeedDoToday" />
+                    <TextView
+                        android:text="err"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="30dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@android:color/background_dark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewZurhay_WhatNeedDo" />
+                </FrameLayout>
+                <TextView
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ZurhaytextViewSpace4" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ZurhaytextView3" />
+    <Button
+        android:text="Зурхай на год"
+        android:drawableLeft="@drawable/ic_zurhay"
+        android:background="@drawable/buttonselector"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:id="@+id/bt_ExittoZurhayYarsfromZurhay" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ZurhaytextView4_ext" />
+    <Button
+        android:text="@string/btname_btBack"
+        android:drawableLeft="@drawable/ic_zurhay"
+        android:background="@drawable/buttonselector"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:id="@+id/bt_exit_from_layout_Zurhay" />
+</LinearLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgrounds">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+    <!-- The Main Content View -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/container"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView1" />
+                    <Button
+                        android:id="@+id/Btzurhaitolay"
+                        android:layout_gravity="center"
+                        android:text="@string/btname_Btzurhaito"
+                        android:drawableLeft="@drawable/ic_zurhay"
+                        android:background="@drawable/buttonselector"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="20"
+                        android:layout_width="match_parent" />
+                    <TextView
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView2" />
+                    <Button
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="20"
+                        android:layout_width="match_parent"
+                        android:id="@+id/btAvalibleBuddhism"
+                        android:layout_gravity="center"
+                        android:text="@string/btname_btAvalibleBuddhismto"
+                        android:drawableLeft="@drawable/ic_AvBuddizm"
+                        android:background="@drawable/buttonselector" />
+                    <TextView
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView3" />
+                    <Button
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="20"
+                        android:layout_width="match_parent"
+                        android:id="@+id/btsangha_Russia_to_Lay"
+                        android:layout_gravity="center"
+                        android:text="@string/btname_btSanghaRussiato"
+                        android:drawableLeft="@drawable/ic_sangRus"
+                        android:background="@drawable/buttonselector" />
+                    <TextView
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView4" />
+                    <Button
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="20"
+                        android:layout_width="match_parent"
+                        android:id="@+id/btdatsans"
+                        android:layout_gravity="center"
+                        android:text="@string/btname_btDatsansto"
+                        android:drawableLeft="@drawable/ic_datsun"
+                        android:background="@drawable/buttonselector" />
+                    <TextView
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView5" />
+                    <Button
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="20"
+                        android:layout_width="match_parent"
+                        android:id="@+id/btmantras"
+                        android:layout_gravity="center"
+                        android:text="@string/btname_btMantrasto"
+                        android:drawableLeft="@drawable/ic_mantras"
+                        android:background="@drawable/buttonselector" />
+                    <TextView
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView6" />
+                <!--         <Button
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="20"
+                        android:layout_width="match_parent"
+                        android:id="@+id/btzakazmolebna"
+                        android:layout_gravity="center"
+                        android:text="@string/btname_btZakazmolebnato"
+                        android:drawableLeft="@drawable/zakazmolebico"
+                        android:background="@drawable/buttonselector"
+                       xmlns:tools="http://schemas.android.com/tools"
+        tools:visibility="gone"/>
+                    <TextView
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                          xmlns:tools="http://schemas.android.com/tools"
+        tools:visibility="gone"
+                        android:id="@+id/textView7" />-->
+                <!--    <Button
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="20"
+                        android:layout_width="match_parent"
+                        android:id="@+id/btContactUS"
+                        android:text="@string/btname_btContactsto"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/contactsico"
+                        android:background="@drawable/buttonselector" />
+                        -->
+                    <TextView
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView8" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    <!-- The Left Navigation Drawer -->
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="#e1e1e1"
+            android:dividerHeight="1dp"
+            android:background="#E3F2FD" />
+    <!--      <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="240dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:background="@drawable/backlisst"
+            android:id="@+id/right_drawer_lay"
+            android:onClick="true"
+            android:visibility="gone">
+            <TextView
+                android:text="01 Января 2000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/textView1"
+                android:minHeight="80px"
+                android:textColor="#ffffff"
+                android:layout_marginTop="7dp"
+                android:divider="#ffffff"
+                android:dividerHeight="1dp" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView1"
+                android:id="@+id/textView_nul1" />
+            <ScrollView
+                android:id="@+id/scroll_text2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_nul1">
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/scroll_text2"
+                    android:id="@+id/textView2"
+                    android:text="@string/ZurhayTextYear"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp" />
+            </ScrollView>
+        </RelativeLayout>
+        -->
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

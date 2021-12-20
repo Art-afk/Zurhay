@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1Huraly" />
+    <LinearLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backlisst"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout11Huraly"
+        android:layout_marginBottom="45dp">
+        <LinearLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2Huraly">
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_leftdateHuraly"
+                android:textColor="@android:color/background_dark"
+                android:drawableLeft="@android:drawable/ic_media_rew"
+                android:layout_marginTop="10dp"
+                android:minWidth="40dp"
+                android:visibility="gone" />
+            <TextView
+                android:text="Хуралы"
+                android:textColor="@android:color/background_dark"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_CentralDataHuraly"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:minWidth="180dp"
+                android:maxWidth="200dp"
+                android:layout_gravity="center"
+                android:minHeight="30dp"
+                android:textStyle="bold" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@android:drawable/ic_media_ff"
+                android:id="@+id/bt_rightdateHuraly"
+                android:minWidth="40dp"
+                android:clickable="true"
+                android:visibility="gone" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/HuralyScrollcontainer2"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="5dp">
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2Huraly" />
+            <WebView
+                android:id="@+id/webview_Huraly_central"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3Huraly" />
+</LinearLayout>

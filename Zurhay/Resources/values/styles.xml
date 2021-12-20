@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#356190</item>
+    <item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
+    <item name="textAllCaps">false</item>
+    <item name="android:textAppearanceButton">@style/CustomTheme.ButtonTextAppearance</item>
+
+
+  </style>
+  <style name="CustomTheme.ButtonTextAppearance" parent="@style/Base.TextAppearance.AppCompat.Button">
+    <item name="textAllCaps">false</item>
+    <item name="android:textAllCaps">false</item>
+  </style>
+
+  <style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+    <item name="color">#F5F5F5</item>
+    <item name="spinBars">true</item>
+  </style>
+  <style name="dialog_animation">
+    <item name="android:windowEnterAnimation">@anim/slide_up</item>
+    <item name="android:windowExitAnimation">@anim/slide_right</item>
+  </style>
+
+  
+</resources>
+

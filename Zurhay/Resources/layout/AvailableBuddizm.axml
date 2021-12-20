@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgrounds">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_AvailiableBuddizm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout_AvailiableBuddizm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+    <!-- The Main Content View -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:textAllCaps="false">
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewAvailableBuddizm" />
+            <Button
+                android:text="@string/btname_btWahtIsBuddizm"
+                android:background="@drawable/buttonselector"
+                android:layout_height="50dp"
+                android:id="@+id/bt_WhatisBuddizm_AvailableBuddizm1"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="@string/btname_btWahtIsZurhay"
+                android:background="@drawable/buttonselector"
+                android:layout_height="50dp"
+                android:id="@+id/bt_btWahtIsZurhay"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_width="match_parent" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="@string/btname_btBojestvavBuddizme"
+                android:background="@drawable/buttonselector"
+                android:layout_height="50dp"
+                android:id="@+id/btBojestvavBuddizme"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="@string/btname_btHURALY"
+                android:background="@drawable/buttonselector"
+                android:layout_height="50dp"
+                android:id="@+id/bt_btHURALY"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="@string/btname_btBuddizmFAQ"
+                android:background="@drawable/buttonselector"
+                android:layout_height="50dp"
+                android:id="@+id/bt_btBuddizmFAQ"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3AvailableBuddizm" />
+            <Button
+                android:text="@string/btname_btBack"
+                android:background="@drawable/buttonselector"
+                android:layout_height="50dp"
+                android:id="@+id/bt_btBuddizmExit"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    <!-- The Left Navigation Drawer -->
+        <ListView
+            android:id="@+id/left_drawer_AvailiableBuddizm"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="#e1e1e1"
+            android:dividerHeight="1dp"
+            android:background="#E3F2FD" />
+    <!--      <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="240dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:background="@drawable/backlisst"
+            android:id="@+id/right_drawer_lay_AvailiableBuddizm"
+            android:onClick="true"
+            android:visibility="gone">
+            <TextView
+                android:text="01 Января 2000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/textView1_AvailiableBuddizm"
+                android:minHeight="80px"
+                android:textColor="#ffffff"
+                android:layout_marginTop="7dp"
+                android:divider="#ffffff"
+                android:dividerHeight="1dp" /> 
+        </RelativeLayout> -->
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

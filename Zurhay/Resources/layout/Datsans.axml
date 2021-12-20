@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1Datsans" />
+    <LinearLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/backlisst"
+        android:orientation="vertical"
+        android:layout_height="400dp"
+        android:id="@+id/linearLayout11Datsans">
+        <LinearLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2Datsans">
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_leftdateDatsans"
+                android:textColor="@android:color/background_dark"
+                android:drawableLeft="@android:drawable/ic_media_rew"
+                android:layout_marginTop="10dp"
+                android:minWidth="40dp"
+                android:visibility="gone" />
+            <TextView
+                android:text="Дацаны"
+                android:textColor="@android:color/background_dark"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_CentralDataDatsans"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:minWidth="180dp"
+                android:maxWidth="200dp"
+                android:layout_gravity="center"
+                android:minHeight="30dp"
+                android:textStyle="bold" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@android:drawable/ic_media_ff"
+                android:id="@+id/bt_rightdateDatsans"
+                android:minWidth="40dp"
+                android:clickable="true"
+                android:visibility="gone" />
+        </LinearLayout>
+        <ScrollView
+            android:id="@+id/DatsansScrollContrainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:id="@+id/DatsansScrollcontainer2"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="5dp">
+                <TextView
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2Datsans" />
+                <WebView
+                    android:id="@+id/webview_DateNameDatsans"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3Datsans" />
+    <Button
+        android:text="@string/btname_btBack"
+        android:drawableLeft="@drawable/ic_zurhay"
+        android:background="@drawable/buttonselector"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:id="@+id/bt_exit_from_layout_Datsans" />
+</LinearLayout>

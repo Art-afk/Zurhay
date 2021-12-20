@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Zurhay\Zurhay.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus_5_by_Google" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Zurhay\AvailiableBuddizmActivity.cs">
+    <Files>
+      <File FileName="Zurhay\Resource.Designer.cs" Line="1508" Column="33" />
+      <File FileName="Zurhay\AvailiableBuddizmActivity.cs" Line="25" Column="80" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Zurhay AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

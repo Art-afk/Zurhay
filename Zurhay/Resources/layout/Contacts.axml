@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp"
+    android:minHeight="400dp"
+    android:background="@drawable/cheap_diagonal_fabric">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:weightSum="100" />
+    <ScrollView
+        android:id="@+id/scrollContacts"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:id="@+id/containerContacts"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtViewAnullContacts"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="" />
+            <TextView
+                android:id="@+id/txtViewAllContacts"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="@string/app_contacts" />
+            <TextView
+                android:id="@+id/txtViewAl2Contacts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="@string/app_contacts2"
+                android:layout_marginTop="20dp"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/txtViewAl3Contacts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="@string/app_contacts3"
+                android:layout_marginTop="20dp"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/txtViewAl4Contacts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text="@string/app_contacts4"
+                android:layout_marginTop="20dp" />
+            <EditText
+                android:id="@+id/btSendEmailContacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"
+                android:text="@string/app_contactsEmail"
+                android:layout_marginTop="20dp"
+                android:editable="false"
+                android:textIsSelectable="true" />
+            <TextView
+                android:id="@+id/txtViewAl6Contacts"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:text=""
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/txtViewAl0Contacts"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:text="Контакты"
+        android:singleLine="true"
+        android:alpha="1.0"
+        android:background="@drawable/cheap_diagonal_fabric" />
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:minWidth="30dp"
+        android:background="@drawable/cheap_diagonal_fabric"
+        android:minHeight="30dp"
+        android:visibility="visible"
+        android:singleLine="true"
+        android:layout_gravity="bottom">
+        <Button
+            android:text="OK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btExitToMainMenuFromContacts" />
+    </RelativeLayout>
+</RelativeLayout>

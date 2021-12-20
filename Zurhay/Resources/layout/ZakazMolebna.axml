@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11ZakazMolebna" />
+    <LinearLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backlisst"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout11ZakazMolebna">
+        <LinearLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2ZakazMolebna">
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_leftdateZakazMolebna"
+                android:textColor="@android:color/background_dark"
+                android:drawableLeft="@android:drawable/ic_media_rew"
+                android:layout_marginTop="20dp"
+                android:minWidth="70dp"
+                android:layout_marginLeft="20dp" />
+            <TextView
+                android:text="Заказ Молебна"
+                android:textColor="@android:color/background_dark"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_CentralDataZakazMolebna"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:minWidth="150dp"
+                android:maxWidth="150dp" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableRight="@android:drawable/ic_media_ff"
+                android:id="@+id/bt_rightdateZakazMolebna"
+                android:minWidth="70dp" />
+        </LinearLayout>
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2ZakazMolebna" />
+        <TextView
+            android:text="Ошибка сервера"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/background_dark"
+            android:id="@+id/textView_DateNameZakazMolebna"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Ошибка сервера"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/background_dark"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_GoodDoDayZakazMolebna" />
+        <TextView
+            android:text="Ошибка сервера"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@android:color/background_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_BadDoDayZakazMolebna" />
+        <TextView
+            android:text="@string/app_contacts3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/background_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_WhatNeedDoZakazMolebna" />
+    </LinearLayout>
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3ZakazMolebna" />
+    <Button
+        android:text="@string/btname_btBack"
+        android:drawableLeft="@drawable/ic_zurhay"
+        android:background="@drawable/buttonselector"
+        android:layout_height="60dp"
+        android:id="@+id/bt_ExittoMainfromZakazMolebna"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent" />
+</LinearLayout>
